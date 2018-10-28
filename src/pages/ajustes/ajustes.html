@@ -1,0 +1,34 @@
+<ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title>Ajustes</ion-title>
+
+      <ion-buttons>
+          <button ion-button
+                  icon-only
+                  menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-buttons>
+
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+
+    <button ion-button
+            block
+            (click)="activarPrincipal()">
+        Activar principal
+    </button>
+
+    <button ion-button
+            block
+            (click)="mostrar_modal()"
+            color = "morado">
+        Show Modal
+    </button>
+
+  </ion-content>
